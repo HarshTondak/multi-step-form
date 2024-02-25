@@ -1,7 +1,7 @@
 // UserNameEmail.js
 import React from "react";
 
-const UserNameEmail = (props) => {
+const UserNameEmail = (props: any) => {
   const { data, handleChange } = props;
 
   return (
