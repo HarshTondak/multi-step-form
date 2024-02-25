@@ -10,23 +10,12 @@ import {
 
 import {
   BarChart,
-  Building2,
   Code,
-  Code2Icon,
   DollarSign,
-  Download,
-  GraduationCap,
   Headphones,
-  Home,
-  Newspaper,
   PaintBucket,
   Settings,
-  Smile,
-  Sparkles,
-  ScreenShare,
-  Users,
   UserPlus,
-  ArrowRight,
 } from "lucide-react";
 
 interface DropDownMenuProps {
@@ -51,64 +40,48 @@ const DropdownMenu: React.FC<DropDownMenuProps> = ({ onClose }) => {
         <AccordionItem className="mt-6 border-b" value="item-1">
           <AccordionTrigger className="">Use Cases</AccordionTrigger>
           <AccordionContent defaultValue="item-1" className="space-y-2">
-            <Link
-              href={"/team-alignment"}
-              className="flex"
-              onClick={handleLinkClick}
-            >
+            <Link href={"#"} className="flex" onClick={handleLinkClick}>
               <div>
                 <UserPlus className="h-6 w-6 mr-4 text-orange-400" />
               </div>
               <div>Team alignment</div>
             </Link>
-            <Link href={"/sales"} className="flex" onClick={handleLinkClick}>
+            <Link href={"#"} className="flex" onClick={handleLinkClick}>
               <div>
                 <DollarSign className="h-6 w-6 mr-4 text-green-400" />
               </div>
 
               <div>Sales</div>
             </Link>
-            <Link
-              href={"/engineering"}
-              className="flex"
-              onClick={handleLinkClick}
-            >
+            <Link href={"#"} className="flex" onClick={handleLinkClick}>
               <div>
                 <Code className="h-6 w-6 mr-4 text-indigo-400" />
               </div>
 
               <div>Engineering</div>
             </Link>
-            <Link href={"/design"} className="flex" onClick={handleLinkClick}>
+            <Link href={"#"} className="flex" onClick={handleLinkClick}>
               <div>
                 <PaintBucket className="h-6 w-6 mr-4 text-blue-400" />
               </div>
 
               <div>Design</div>
             </Link>
-            <Link
-              href={"/marketing"}
-              className="flex "
-              onClick={handleLinkClick}
-            >
+            <Link href={"#"} className="flex " onClick={handleLinkClick}>
               <div>
                 <BarChart className="h-6 w-6 mr-4 text-rose-400" />
               </div>
 
               <div>Marketing</div>
             </Link>
-            <Link
-              href={"/product-management"}
-              className="flex"
-              onClick={handleLinkClick}
-            >
+            <Link href={"#"} className="flex" onClick={handleLinkClick}>
               <div>
                 <Settings className="h-6 w-6 mr-4 text-grey-400" />
               </div>
 
               <div>Product Management</div>
             </Link>
-            <Link href={"/support"} className="flex " onClick={handleLinkClick}>
+            <Link href={"#"} className="flex " onClick={handleLinkClick}>
               <div>
                 <Headphones className="h-6 w-6 mr-4 text-amber-400" />
               </div>
@@ -121,64 +94,48 @@ const DropdownMenu: React.FC<DropDownMenuProps> = ({ onClose }) => {
         <AccordionItem className=" border-b" value="item-4">
           <AccordionTrigger>Company</AccordionTrigger>
           <AccordionContent className="space-y-2">
-            <Link
-              href={"/team-alignment"}
-              className="flex"
-              onClick={handleLinkClick}
-            >
+            <Link href={"#"} className="flex" onClick={handleLinkClick}>
               <div>
                 <UserPlus className="h-6 w-6 mr-4 text-orange-400" />
               </div>
               <div>Team alignment</div>
             </Link>
-            <Link href={"/sales"} className="flex" onClick={handleLinkClick}>
+            <Link href={"#"} className="flex" onClick={handleLinkClick}>
               <div>
                 <DollarSign className="h-6 w-6 mr-4 text-green-400" />
               </div>
 
               <div>Sales</div>
             </Link>
-            <Link
-              href={"/engineering"}
-              className="flex"
-              onClick={handleLinkClick}
-            >
+            <Link href={"#"} className="flex" onClick={handleLinkClick}>
               <div>
                 <Code className="h-6 w-6 mr-4 text-indigo-400" />
               </div>
 
               <div>Engineering</div>
             </Link>
-            <Link href={"/design"} className="flex" onClick={handleLinkClick}>
+            <Link href={"#"} className="flex" onClick={handleLinkClick}>
               <div>
                 <PaintBucket className="h-6 w-6 mr-4 text-blue-400" />
               </div>
 
               <div>Design</div>
             </Link>
-            <Link
-              href={"/marketing"}
-              className="flex "
-              onClick={handleLinkClick}
-            >
+            <Link href={"#"} className="flex " onClick={handleLinkClick}>
               <div>
                 <BarChart className="h-6 w-6 mr-4 text-rose-400" />
               </div>
 
               <div>Marketing</div>
             </Link>
-            <Link
-              href={"/product-management"}
-              className="flex"
-              onClick={handleLinkClick}
-            >
+            <Link href={"#"} className="flex" onClick={handleLinkClick}>
               <div>
                 <Settings className="h-6 w-6 mr-4 text-grey-400" />
               </div>
 
               <div>Product Management</div>
             </Link>
-            <Link href={"/support"} className="flex " onClick={handleLinkClick}>
+            <Link href={"#"} className="flex " onClick={handleLinkClick}>
               <div>
                 <Headphones className="h-6 w-6 mr-4 text-amber-400" />
               </div>
@@ -189,16 +146,13 @@ const DropdownMenu: React.FC<DropDownMenuProps> = ({ onClose }) => {
         </AccordionItem>
 
         <Link
-          href={"/pricing"}
+          href={"#"}
           className="
             flex
             flex-1
             items-center 
             justify-between
-     
-          
             py-4
-            
             border-b
             "
         >
@@ -206,7 +160,7 @@ const DropdownMenu: React.FC<DropDownMenuProps> = ({ onClose }) => {
         </Link>
 
         <Link
-          href={"/contact"}
+          href={"#"}
           className="flex flex-1 items-center justify-between border-b py-4"
         >
           Request a demo
@@ -215,7 +169,7 @@ const DropdownMenu: React.FC<DropDownMenuProps> = ({ onClose }) => {
 
       <div className="pt-12">
         <div className="  space-y-4 flex flex-col px-4">
-          <Link href={"/sign-in"}>
+          <Link href={"#"}>
             <Button className="w-full">Get bird free</Button>
           </Link>
         </div>

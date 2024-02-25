@@ -22,7 +22,7 @@ const ActionButtons = () => {
   return (
     <div className="pr-2">
       <div className=" items-center justify-center flex ">
-        <Link href={"/contact"}>
+        <Link href={"#"}>
           <Button className="hidden lg:block">For Masters</Button>
         </Link>
       </div>
